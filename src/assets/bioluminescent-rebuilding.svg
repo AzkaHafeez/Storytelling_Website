@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#031124" />
+      <stop offset="55%" stop-color="#071c33" />
+      <stop offset="100%" stop-color="#0b2a3d" />
+    </linearGradient>
+    <radialGradient id="glow1" cx="20%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.45" />
+      <stop offset="60%" stop-color="#2dd4bf" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="70%" cy="65%" r="50%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.35" />
+      <stop offset="70%" stop-color="#7dd3fc" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#020b16" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#041422" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sea)" />
+  <rect width="1920" height="1080" fill="url(#glow1)" />
+  <rect width="1920" height="1080" fill="url(#glow2)" />
+  <path d="M0 820 C 300 760 520 790 760 860 C 1060 950 1320 980 1920 910 L1920 1080 L0 1080 Z" fill="url(#ridge)" opacity="0.9" />
+  <g fill="#9ffcf2" opacity="0.6">
+    <circle cx="240" cy="520" r="3" />
+    <circle cx="320" cy="480" r="2" />
+    <circle cx="540" cy="600" r="2.5" />
+    <circle cx="980" cy="520" r="2.2" />
+    <circle cx="1200" cy="460" r="2.8" />
+    <circle cx="1420" cy="560" r="2" />
+    <circle cx="1600" cy="500" r="3" />
+  </g>
+</svg>

@@ -1,0 +1,181 @@
+:root {
+  /* Default typography scale for editorial feel */
+  --color-bg-base: #050505;
+  --color-bg-surface: #0f0f12;
+  --color-primary: #c4a484;
+  --color-secondary: #3f3f46;
+  --color-accent: #f4f4f5;
+  --color-text-main: #f5f5f5;
+  --color-text-muted: #a1a1aa;
+  --future-image: url('https://images.unsplash.com/photo-1515630278258-407f66498911?q=80&w=2000');
+  --scene2-image: url('https://images.unsplash.com/photo-1470162656305-6f429ba817bf?q=80&w=2000');
+  --scene3-image: url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=2000');
+  --scene4-image: url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&w=2000');
+  --scene5-image: url('https://images.unsplash.com/photo-1540306173004-98ceba565ec1?q=80&w=2000');
+  --scene6-image: url('https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=2000');
+  --scene7-image: url('https://images.unsplash.com/photo-1544979590-37e9b47eb705?q=80&w=2000');
+  --shoreline-brightness: 1;
+  --shoreline-haze-opacity: 0.55;
+
+  --font-heading: 'System UI', sans-serif;
+  --font-body: 'System UI', sans-serif;
+  --type-7xl: clamp(2.5rem, 10vw, 10rem);
+  --type-5xl: clamp(2rem, 6vw, 6rem);
+  --type-3xl: clamp(1.5rem, 4vw, 4rem);
+  --type-base: clamp(1rem, 2vw, 1.15rem);
+
+  --motion-ease: power2.out;
+  --motion-slow: 1.4;
+  --motion-fast: 0.6;
+
+  --ui-radius: 16px;
+  --ui-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+  --ui-border: rgba(255, 255, 255, 0.12);
+  --cursor-color: rgba(255, 255, 255, 0.5);
+  --glow-color: rgba(255, 255, 255, 0.4);
+  --mix-blend: normal;
+  --overlay-opacity: 0.6;
+  --grain-opacity: 0.08;
+}
+
+/* 1. Dark Academia Evolution */
+[data-theme='dark-academia'] {
+  --color-bg-base: #0c0b0a; 
+  --color-bg-surface: #1a1412;
+  --color-primary: #8c2f39; 
+  --color-secondary: #4d3a31;
+  --color-accent: #c4a484; 
+  --color-text-main: #f4ece2;
+  --color-text-muted: #bcaba0;
+
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Cormorant Garamond', serif;
+
+  --ui-radius: 2px;
+  --mix-blend: multiply;
+  --overlay-opacity: 0.85;
+  --grain-opacity: 0.1;
+
+  --motion-ease: power3.out;
+  --motion-slow: 1.8;
+  --motion-fast: 0.7;
+
+  --ui-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+  --ui-border: rgba(255, 255, 255, 0.08);
+  --cursor-color: rgba(196, 164, 132, 0.6);
+  --glow-color: rgba(140, 47, 57, 0.5);
+  --shoreline-brightness: 0.78;
+  --shoreline-haze-opacity: 0.7;
+  --future-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000');
+  --scene2-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=2000');
+  --scene3-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2000');
+  --scene4-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2000');
+  --scene5-image: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2000');
+  --scene6-image: url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=2000');
+  --scene7-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2000');
+}
+
+/* 2. Mythic / Earthborn */
+[data-theme='mythic-earth'] {
+  --color-bg-base: #14110f;
+  --color-bg-surface: #231b16;
+  --color-primary: #b8744b;
+  --color-secondary: #5c6b3f;
+  --color-accent: #e6c9a8;
+  --color-text-main: #f2e8dc;
+  --color-text-muted: #c2b2a2;
+
+  --font-heading: 'Marcellus', serif;
+  --font-body: 'Source Serif 4', serif;
+
+  --ui-radius: 10px;
+  --mix-blend: multiply;
+  --overlay-opacity: 0.82;
+  --grain-opacity: 0.14;
+
+  --motion-ease: power3.out;
+  --motion-slow: 2.1;
+  --motion-fast: 0.8;
+
+  --ui-shadow: 0 28px 70px rgba(17, 12, 8, 0.6);
+  --ui-border: rgba(230, 201, 168, 0.2);
+  --cursor-color: rgba(230, 201, 168, 0.4);
+  --glow-color: rgba(184, 116, 75, 0.55);
+  --future-image: url('https://images.unsplash.com/photo-1426604966848-d7adac402bff?q=80&w=2000');
+  --scene2-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=2000');
+  --scene3-image: url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&w=2000');
+  --scene4-image: url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=2000');
+  --scene5-image: url('https://images.unsplash.com/photo-1540306173004-98ceba565ec1?q=80&w=2000');
+  --scene6-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2000');
+  --scene7-image: url('https://images.unsplash.com/photo-1544979590-37e9b47eb705?q=80&w=2000');
+}
+
+/* 3. Bioluminescent / Deep Sea */
+[data-theme='bioluminescent'] {
+  --color-bg-base: #050b1a;
+  --color-bg-surface: #0b1628;
+  --color-primary: #2dd4bf;
+  --color-secondary: #6366f1;
+  --color-accent: #7dd3fc;
+  --color-text-main: #e0f7ff;
+  --color-text-muted: #9fb3c8;
+
+  --font-heading: 'Nunito', sans-serif;
+  --font-body: 'Nunito', sans-serif;
+
+  --ui-radius: 28px;
+  --mix-blend: screen;
+  --overlay-opacity: 0.75;
+  --grain-opacity: 0.08;
+
+  --motion-ease: power1.out;
+  --motion-slow: 1.9;
+  --motion-fast: 0.7;
+
+  --ui-shadow: 0 26px 70px rgba(6, 12, 22, 0.7);
+  --ui-border: rgba(125, 211, 252, 0.3);
+  --cursor-color: rgba(125, 211, 252, 0.5);
+  --glow-color: rgba(45, 212, 191, 0.6);
+  --shoreline-brightness: 0.75;
+  --shoreline-haze-opacity: 0.72;
+  --future-image: url('https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?q=80&w=2000');
+  --scene2-image: url('https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?q=80&w=2000');
+  --scene3-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2000');
+  --scene4-image: url('https://images.unsplash.com/photo-1439405326854-014607f694d7?q=80&w=2000');
+  --scene5-image: url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?q=80&w=2000');
+  --scene6-image: url('https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?q=80&w=2000');
+  --scene7-image: url('../assets/bioluminescent-rebuilding.svg');
+}
+
+/* Base Body Styles controlled by theme */
+body {
+  background-color: var(--color-bg-base);
+  color: var(--color-text-main);
+  font-family: var(--font-body);
+  transition: background-color 1.2s ease, color 1.2s ease;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  margin: 0;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-accent);
+  color: var(--color-bg-base);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-base);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: var(--ui-radius);
+}
