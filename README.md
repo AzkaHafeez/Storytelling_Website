@@ -1,20 +1,34 @@
-<<<<<<< HEAD
-# React + Vite
+# Theo Of Evolution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A scroll-driven storytelling site about the evolution of life, built with React, Vite, and GSAP.
 
-Currently, two official plugins are available:
+## Features
+- Intro and theme selection flow
+- Scroll-triggered scenes with pinned sections
+- Responsive layout with custom theming
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React 19
+- Vite 8
+- GSAP + ScrollTrigger
+- Tailwind CSS and custom CSS
 
-## React Compiler
+## Getting Started
+1. `npm install`
+2. `npm run dev`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Scripts
+- `npm run dev`: start dev server
+- `npm run build`: production build
+- `npm run preview`: preview build
+- `npm run lint`: run ESLint
 
-## Expanding the ESLint configuration
+## Project Structure
+- [src/components](src/components): shared UI building blocks
+- [src/sections](src/sections): scroll narrative scenes
+- [src/styles](src/styles): global and theme styles
+- [src/utils](src/utils): motion helpers
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Storytelling_Website
->>>>>>> 827b0fbbad557d30d87632ba3b870363e0a76031
+## Notes
+- Theme selection sets a data attribute on the root element.
+- ScrollTrigger is refreshed after theme changes.
